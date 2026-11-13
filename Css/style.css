@@ -1,0 +1,56 @@
+.mytext {
+  font-size: 60px;
+  color: brown;
+  background-color: blanchedalmond;
+  font-weight: bold;
+}
+.mytext-shadow {
+  text-shadow: 15px 10px 10px rgba(233, 0, 0, 0.395);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  box-shadow: 10px 9px 10px black;
+  &:hover {
+    background-color: green;
+    border-radius: 50%;
+
+    transform: rotate(360deg);
+    transition: 2s all;
+  }
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 20px rgb(161, 2, 241);
+
+  transition: 0.8s;
+
+  &:hover {
+    transform: rotate(360deg);
+    transition: 2s all;
+  }
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 120px;
+  font-size: 32px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+
+  transition: 0.8s;
+}
+.btn:hover {
+  color: burlywood;
+  background-color: brown;
+  border: 2px solid green;
+  transform: rotate(180deg);
+  transition: 0.8s all;
+}
